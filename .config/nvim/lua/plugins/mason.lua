@@ -1,4 +1,3 @@
-
 -- Customize Mason plugins
 
 ---@type LazySpec
@@ -10,6 +9,9 @@ return {
     opts = {
       ensure_installed = {
         "lua_ls",
+        "emmet_ls",
+        "ts_ls",
+        "cssls",
         -- add more arguments for adding more language servers
       },
     },
@@ -21,7 +23,7 @@ return {
     opts = {
       ensure_installed = {
         "stylua",
-        "eslint-lsp"
+        "eslint-lsp",
         -- add more arguments for adding more null-ls sources
       },
     },
