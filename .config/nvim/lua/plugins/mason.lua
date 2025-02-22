@@ -24,6 +24,7 @@ return {
       ensure_installed = {
         "stylua",
         "eslint-lsp",
+        "html-lsp",
         -- add more arguments for adding more null-ls sources
       },
     },
